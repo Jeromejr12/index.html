@@ -27,3 +27,102 @@
     <p>This is a paragraph with default styles.</p>
 </body>
 </html>
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Page Example</title>
+    <style>
+        /* General Styles */
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 0;
+        }
+
+        .container {
+            width: 80%;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: white;
+        }
+
+        .header {
+            text-align: center;
+            background-color: #4CAF50;
+            color: white;
+            padding: 20px 0;
+        }
+
+        .content {
+            display: flex;
+            justify-content: space-between;
+            padding: 20px;
+        }
+
+        .box {
+            width: 30%;
+            background-color: #f1f1f1;
+            padding: 20px;
+            box-sizing: border-box;
+            margin: 10px;
+            border-radius: 8px;
+        }
+
+        .footer {
+            text-align: center;
+            background-color: #333;
+            color: white;
+            padding: 10px 0;
+        }
+
+        /* Additional class to style a special section */
+        .highlight {
+            background-color: #ffeb3b;
+            padding: 20px;
+            margin-top: 20px;
+        }
+
+        .special-padding {
+            padding: 30px;
+            margin: 10px;
+            background-color: #f9f9f9;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <!-- Header Section -->
+        <div class="header">
+            <h1>Welcome to My Website</h1>
+        </div>
+
+        <!-- Content Section -->
+        <div class="content">
+            <div class="box">
+                <h2>Box 1</h2>
+                <p>This is the first box. You can put content here.</p>
+            </div>
+            <div class="box highlight">
+                <h2>Box 2 (Highlighted)</h2>
+                <p>This box has a special highlight background.</p>
+            </div>
+            <div class="box">
+                <h2>Box 3</h2>
+                <p>This is the third box. You can put more content here.</p>
+            </div>
+        </div>
+
+        <!-- Footer Section -->
+        <div class="footer special-padding">
+            <p>Footer Content Here</p>
+        </div>
+    </div>
+
+</body>
+</html>
